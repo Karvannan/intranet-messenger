@@ -1,0 +1,65 @@
+#indexHeader {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#indexNav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:400px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+#indexSection {
+	height:400px;
+    width:800px;
+    float:left;
+    padding:10px;
+}
+#chatHeader {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#chatNav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:400px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+#chatSection {
+	height:400px;
+    width:800px;
+    float:left;
+    padding:10px;
+}
+#myFrame {
+	height:400px;
+    width:800px;
+    float:left;
+    padding:10px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+#chatArea {
+	height:300px;
+    width:750px;
+    float:left;
+    padding:5px;
+}
+#sendButton {
+	height:30px;
+    width:100px;
+    float:right;
+    padding:5px;
+}

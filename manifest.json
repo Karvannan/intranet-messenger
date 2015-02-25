@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Imaginea Messenger",
+  "version": "1.0",
+  "minimum_chrome_version": "33.0.1715.0",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "permissions": ["webview", "system.network", "storage", {"socket": [
+      "udp-send-to"
+    ]}],
+  "app": {
+    "background": {
+      "scripts": ["main.js", "udp-server.js", "webrtc-server.js", "tcp-server.js"]
+    }
+  },
+  "sockets": {
+    "tcpServer": {
+      "listen": ["0.0.0.0"]
+    },
+    "udp" : {
+      "bind": "",
+      "send" : ""
+    },
+    "tcp": {
+      "connect" : ""
+    }
+  }
+}
